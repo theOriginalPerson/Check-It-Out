@@ -1,3 +1,4 @@
 [build]
   command = "dart compile web/main.dart -o web/index.html"
   publish = "web"
+  base = "frontend"
