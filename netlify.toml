@@ -1,4 +1,5 @@
 [build]
-  command = "frontend/dart/bin/dart compile web/main.dart -o web/index.html"
-  base = "web"
+  command = "webdev build"
+  base = "frontend"
+  publish = "frontend/web"
   environment = { "PATH" = "frontend/dart/bin:$PATH" }
